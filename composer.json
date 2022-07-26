@@ -1,0 +1,18 @@
+{
+    "name": "lava/magmacore",
+    "description": "PHP framework for building web app",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lava\\Magmacore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amarius",
+            "email": "a.alla@wisch4web.de"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
