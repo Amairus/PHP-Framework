@@ -1,11 +1,14 @@
 {
     "name": "lava/magmacore",
     "description": "PHP framework for building web app",
+    "keywords": ["framework","php", "magmacore"],
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Lava\\Magmacore\\": "src/"
-        }
+    "readme": "",
+    "time": "",
+    "support": {
+        "issues": "https://github.com/Amairus/PHP-Framework/issues",
+        "source": "https://github.com/Amairus/PHP-Framework",
+        "wiki": "https://github.com/Amairus/PHP-Framework/wiki"
     },
     "authors": [
         {
@@ -13,6 +16,24 @@
             "email": "a.alla@wisch4web.de"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Magma\\": "src/Magma"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magma\\Tests": "Tests"
+        }
+    },
     "minimum-stability": "alpha",
-    "require": {}
+    "require": {
+        "php": "7.4.6",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*"
+    }
 }
